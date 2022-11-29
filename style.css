@@ -1,0 +1,48 @@
+.div_speed_image {
+    
+    width: 250px;
+    border-radius: 150px;
+    
+
+}
+.div_volume_image {
+   
+    width: 250px;
+    border-radius: 150px;
+   
+
+}
+.div_speed {
+  float:right ;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+.div_volume {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#head {
+    color: white;
+    background-color: crimson;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+.note {
+    font-size: 20px;
+}
+
+#play_btn {
+    background-color: yellow;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    border: solid 5px red;
+    border-radius: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+canvas {
+    border: solid 5px white;
+    border-radius: 30px;
+}
