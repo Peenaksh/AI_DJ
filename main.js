@@ -50,4 +50,31 @@ function draw() {
     image(video,0,0,600,500)
     fill("#498efc");
     stroke("#34ed66")
+    if(score_right_wrist>0.2){
+        circle(right_wrist_x,right_wrist_y,20)
+       if(right_wrist_y>0 && right_wrist_y<=100) {
+        document.getElementById("speed").innerHTML = "speed=0.5 x"
+        song.rate(0.5)
+       }
+       else if(right_wrist_y>100 && right_wrist_y<=200) {
+        document.getElementById("speed").innerHTML = "speed=1x"
+        song.rate(1)
+
+       }
+       else if(right_wrist_y>200 && right_wrist_y<=300) {
+        document.getElementById("speed").innerHTML = "speed=1.5x"
+        song.rate(1.5)
+       }
+       else if(right_wrist_y>300 && right_wrist_y<=400) {
+        document.getElementById("speed").innerHTML = "speed = 2x"
+        song.rate(2)
+       }
+       else if(right_wrist_y>400) {
+        document.getElementById("speed").innerHTML = "speed=2.5x"
+        song.rate(2.5)
+       }
+     }
+     if(score_left_wrist>1.2){}
+     
+    
 }
